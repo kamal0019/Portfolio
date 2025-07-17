@@ -2,17 +2,17 @@
 
 ## Portfolio info
 
-**URL**: https://lovable.dev/projects/fa6ca88e-fb49-48f1-9318-7afc138de29a
+**URL**: https://portfolio-cyan-five-ld1156oinn.vercel.app/
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fa6ca88e-fb49-48f1-9318-7afc138de29a) and start prompting.
 
-Changes made via Lovable will be committed automatically to this repo.
+Simply visit thehttps://portfolio-cyan-five-ld1156oinn.vercel.app/ and start prompting.
+
+
 
 **Use your preferred IDE**
 
