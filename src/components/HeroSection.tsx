@@ -53,17 +53,26 @@ const HeroSection = () => {
           </div>
 
           {/* Social Links */}
-          <div className="flex justify-center space-x-6 mb-12">
-            <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
-              <Github size={24} />
-            </Button>
-            <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
-              <Linkedin size={24} />
-            </Button>
-            <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
-              <Mail size={24} />
-            </Button>
-          </div>
+         <div className="flex justify-center space-x-6 mb-12">
+  <a href="https://github.com/kamal0019" target="_blank" rel="noopener noreferrer">
+    <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
+      <Github size={24} />
+    </Button>
+  </a>
+
+  <a href="https://www.linkedin.com/in/kamalprajapat1" target="_blank" rel="noopener noreferrer">
+    <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
+      <Linkedin size={24} />
+    </Button>
+  </a>
+
+  <a href="mailto:prajapatkamal2106@gmail.com" target="_blank" rel="noopener noreferrer">
+    <Button size="icon" variant="ghost" className="hover:text-primary transition-colors">
+      <Mail size={24} />
+    </Button>
+  </a>
+</div>
+
 
           {/* Scroll Indicator */}
           <div className="animate-bounce">
