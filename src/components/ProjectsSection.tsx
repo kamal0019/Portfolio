@@ -43,7 +43,7 @@ const ProjectsSection = () => {
 
           <div className="grid gap-8">
             {projects.map((project, index) => (
-              <Card 
+              <Card
                 key={index}
                 className={`bg-card border-border hover:shadow-elegant transition-all duration-300 animate-slide-up overflow-hidden ${
                   project.featured ? 'lg:grid lg:grid-cols-2 lg:gap-8' : ''
@@ -51,13 +51,13 @@ const ProjectsSection = () => {
                 style={{ animationDelay: `${index * 0.2}s` }}
               >
                 <div className={project.featured ? 'lg:order-2' : ''}>
-                  <img 
-                    src={project.image} 
+                  <img
+                    src={project.image}
                     alt={project.title}
                     className="w-full h-64 lg:h-full object-cover"
                   />
                 </div>
-                
+
                 <div className={`p-6 ${project.featured ? 'lg:order-1 lg:flex lg:flex-col lg:justify-center' : ''}`}>
                   <CardHeader className="p-0 mb-4">
                     <CardTitle className="text-2xl text-foreground mb-2">
@@ -67,11 +67,11 @@ const ProjectsSection = () => {
                       {project.description}
                     </CardDescription>
                   </CardHeader>
-                  
+
                   <CardContent className="p-0">
                     <div className="flex flex-wrap gap-2 mb-6">
                       {project.technologies.map((tech, techIndex) => (
-                        <Badge 
+                        <Badge
                           key={techIndex}
                           variant="outline"
                           className="border-primary/30 text-primary"
@@ -80,16 +80,20 @@ const ProjectsSection = () => {
                         </Badge>
                       ))}
                     </div>
-                    
+
                     <div className="flex gap-4">
-                      <Button size="sm" className="bg-primary hover:bg-primary/90">
-                        <ExternalLink size={16} className="mr-2" />
-                        Live Demo
-                      </Button>
-                      <Button size="sm" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                        <Github size={16} className="mr-2" />
-                        Source Code
-                      </Button>
+                      <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+                        <Button size="sm" className="bg-primary hover:bg-primary/90">
+                          <ExternalLink size={16} className="mr-2" />
+                          Live Demo
+                        </Button>
+                      </a>
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <Button size="sm" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+                          <Github size={16} className="mr-2" />
+                          Source Code
+                        </Button>
+                      </a>
                     </div>
                   </CardContent>
                 </div>
