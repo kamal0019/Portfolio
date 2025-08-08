@@ -13,8 +13,8 @@ const ProjectsSection = () => {
       description: "Developed a full-stack dashboard using React.js and Node.js with role-based access for Admin, Accountant, and Customer. Integrated Clerk Authentication for secure login and protected routes. Admin can manage users, Accountant handles transactions, Customer can view data. Used MongoDB for storing user and role-based access data.",
       image: project1,
       technologies: ["React.js", "Node.js", "MongoDB", "Clerk Authentication"],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://officexmangement.vercel.app/login",
+      githubUrl: "https://github.com/kamal0019/OfficeXMangement",
       featured: true
     },
     {
