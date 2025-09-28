@@ -22,8 +22,8 @@ const ProjectsSection = () => {
       description: "Built an AI-powered WhatsApp bot using n8n, OpenAI, and Twilio API. Automated bill generation and dispatch for e-commerce orders. Integrated workflows in n8n for real-time responses and billing logic. Enabled users to request invoices, get payment status, and receive confirmations instantly.",
       image: project2,
       technologies: ["n8n", "OpenAI", "Twilio API", "Node.js"],
-      liveUrl: "#",
-      githubUrl: "#",
+      liveUrl: "https://whatsapp-bill-automation.vercel.app/",
+      githubUrl: "https://github.com/kamal0019/WhatsApp-Bill-Automation",
       featured: true
     }
   ];
